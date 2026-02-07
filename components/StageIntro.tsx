@@ -56,9 +56,9 @@ export const StageIntro: React.FC<StageIntroProps> = ({ onNext }) => {
           {/* Envelope Front (Pocket) */}
           <div className="absolute inset-0 z-20 pointer-events-none rounded-lg overflow-hidden">
             {/* Left Triangle */}
-            <div className="absolute bottom-0 left-0 w-0 h-0 border-l-[160px] md:border-l-[210px] border-l-red-600 border-t-[110px] md:border-t-[140px] border-t-transparent border-b-[110px] md:border-b-[140px] border-b-red-600 rounded-bl-lg shadow-sm"></div>
+            <div className="absolute bottom-0 left-0 w-0 h-0 border-l-[160px] md:border-l-[190px] border-l-red-600 border-t-[110px] md:border-t-[140px] border-t-transparent border-b-[110px] md:border-b-[140px] border-b-red-600 rounded-bl-lg shadow-sm"></div>
             {/* Right Triangle */}
-            <div className="absolute bottom-0 right-0 w-0 h-0 border-r-[160px] md:border-r-[210px] border-r-red-600 border-t-[110px] md:border-t-[140px] border-t-transparent border-b-[110px] md:border-b-[140px] border-b-red-600 rounded-br-lg shadow-sm"></div>
+            <div className="absolute bottom-0 right-0 w-0 h-0 border-r-[160px] md:border-r-[190px] border-r-red-600 border-t-[110px] md:border-t-[140px] border-t-transparent border-b-[110px] md:border-b-[140px] border-b-red-600 rounded-br-lg shadow-sm"></div>
             {/* Gradient for depth */}
             <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black/20 to-transparent"></div>
           </div>
@@ -71,7 +71,7 @@ export const StageIntro: React.FC<StageIntroProps> = ({ onNext }) => {
               zIndex: isOpen ? 0 : 30, // Drop behind when open
             }}
           >
-            <div className="w-0 h-0 border-l-[160px] md:border-l-[210px] border-l-transparent border-r-[160px] md:border-r-[210px] border-r-transparent border-t-[110px] md:border-t-[140px] border-t-red-500 relative filter drop-shadow-md">
+            <div className="w-0 h-0 border-l-[160px] md:border-l-[190px] border-l-transparent border-r-[160px] md:border-r-[190px] border-r-transparent border-t-[110px] md:border-t-[140px] border-t-red-500 relative filter drop-shadow-md">
 
               {/* Heart Seal */}
               <div
