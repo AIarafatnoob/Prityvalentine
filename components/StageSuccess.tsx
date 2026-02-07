@@ -35,10 +35,10 @@ export const StageSuccess: React.FC = () => {
           <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
         </svg>
       </div>
-      <h1 className="text-4xl md:text-6xl font-script mb-2 drop-shadow-sm">She said YES!</h1>
-      <div className="animate-fade-in-up delay-300 mb-8 inline-block">
-        <div className="bg-white/20 backdrop-blur-md px-8 py-3 rounded-full border border-white/30 shadow-lg transform hover:scale-105 transition-all duration-300">
-          <p className="text-2xl md:text-4xl text-white font-script tracking-wide flex items-center gap-3">
+      <h1 className="text-4xl md:text-5xl font-script mb-2 drop-shadow-sm">She said YES!</h1>
+      <div className="animate-fade-in-up delay-300 mb-6 inline-block">
+        <div className="bg-white/20 backdrop-blur-md px-6 py-2 md:px-8 md:py-3 rounded-full border border-white/30 shadow-lg transform hover:scale-105 transition-all duration-300">
+          <p className="text-2xl md:text-3xl text-white font-script tracking-wide flex items-center gap-3">
             <span className="text-2xl">📅</span> 7th Feb, 2025
           </p>
         </div>
